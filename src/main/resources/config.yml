@@ -1,0 +1,23 @@
+list:
+  ignore:
+    - 'pk7r'
+    - 'WilliamEstrela'
+  classes:
+    coord:
+      permission: 'core.list.coordenador'
+      name: 'Coord'
+    admin:
+      permission: 'core.list.administrador'
+      name: 'Admin'
+    mod:
+      permission: 'core.list.moderador'
+      name: 'Mod'
+    helper:
+      permission: 'core.list.ajudante'
+      name: 'Ajudante'
+    vip:
+      permission: 'core.list.vip'
+      name: 'VIP'
+    youtuber:
+      permission: 'core.list.youtuber'
+      name: 'Youtuber'
